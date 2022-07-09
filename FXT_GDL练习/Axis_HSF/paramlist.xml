@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParamSection>
+	<ParamSectHeader>
+		<AutoHotspots>false</AutoHotspots>
+		<StatBits>
+			<STBit_FixSize/>
+		</StatBits>
+		<WDLeftFrame>0</WDLeftFrame>
+		<WDRightFrame>0</WDRightFrame>
+		<WDTopFrame>0</WDTopFrame>
+		<WDBotFrame>0</WDBotFrame>
+		<LayFlags>65535</LayFlags>
+		<WDMirrorThickness>0</WDMirrorThickness>
+		<WDWallInset>0</WDWallInset>
+	</ParamSectHeader>
+	<Parameters SectVersion="27" SectionFlags="0" SubIdent="0">
+		<Length Name="A">
+			<Description><![CDATA["第一维"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Length Name="B">
+			<Description><![CDATA["第二维"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Length Name="ZZYZX">
+			<Description><![CDATA["高度"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Boolean Name="AC_show2DHotspotsIn3D">
+			<Description><![CDATA["在3D中显示2D热点"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>1</Value>
+		</Boolean>
+		<Length Name="ac_bottomlevel">
+			<Description><![CDATA["最低级"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>1</Value>
+		</Length>
+		<Length Name="ac_toplevel">
+			<Description><![CDATA["顶级"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Length>
+		<Length Name="Arr_dis">
+			<Description><![CDATA["轴网间距"]]></Description>
+			<ArrayValues FirstDimension="3" SecondDimension="0">
+				<AVal Row="1">8.4</AVal>
+				<AVal Row="2">8.4</AVal>
+				<AVal Row="3">8.4</AVal>
+			</ArrayValues>
+		</Length>
+		<Length Name="dis">
+			<Description><![CDATA["轴网间距（通用）"]]></Description>
+			<Value>8.4</Value>
+		</Length>
+		<Integer Name="amount">
+			<Description><![CDATA["间隔"]]></Description>
+			<Value>3</Value>
+		</Integer>
+		<LineType Name="Axis_Line_type">
+			<Description><![CDATA["轴线线型"]]></Description>
+			<Value>7</Value>
+		</LineType>
+		<Length Name="Axis_lenth">
+			<Description><![CDATA["轴线长度(初始）"]]></Description>
+			<Value>10</Value>
+		</Length>
+		<Length Name="Arr_Axis_lenth">
+			<Description><![CDATA["轴线长度"]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<ArrayValues FirstDimension="4" SecondDimension="0">
+				<AVal Row="1">10</AVal>
+				<AVal Row="2">10</AVal>
+				<AVal Row="3">10</AVal>
+				<AVal Row="4">10</AVal>
+			</ArrayValues>
+		</Length>
+		<Length Name="Axis_lenth_extend">
+			<Description><![CDATA["轴线延申长度"]]></Description>
+			<Value>1</Value>
+		</Length>
+		<Length Name="Axis_and_dim_distance">
+			<Description><![CDATA["标注线长度"]]></Description>
+			<Value>1</Value>
+		</Length>
+
+		<!-- Font: PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK -->
+
+		<Title Name="Font">
+			<Description><![CDATA["字体"]]></Description>
+		</Title>
+		<RealNum Name="Font_Height">
+			<Description><![CDATA[""]]></Description>
+			<Value>3.5</Value>
+		</RealNum>
+		<String Name="Font_Name">
+			<Description><![CDATA[""]]></Description>
+			<Value><![CDATA["微软雅黑 CHINESE_GB2312"]]></Value>
+		</String>
+		<String Name="Font_Dim_Face">
+			<Description><![CDATA["标注字体状态"]]></Description>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<PenColor Name="Font_Pen">
+			<Description><![CDATA["字体颜色"]]></Description>
+			<Value>1</Value>
+		</PenColor>
+
+		<!-- Dimention: PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK ===== PARAMETER BLOCK -->
+
+		<Title Name="Dimention">
+			<Description><![CDATA[""]]></Description>
+		</Title>
+		<PenColor Name="Dim_Line_Pen">
+			<Description><![CDATA[""]]></Description>
+			<Value>61</Value>
+		</PenColor>
+		<String Name="Dim_String">
+			<Description><![CDATA[""]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<Length Name="Dim_distance_Y">
+			<Description><![CDATA[""]]></Description>
+			<Value>0.3</Value>
+		</Length>
+		<Length Name="Arr_Dim_Distance_Y">
+			<Description><![CDATA[""]]></Description>
+			<ArrayValues FirstDimension="1" SecondDimension="0">
+				<AVal Row="1">0</AVal>
+			</ArrayValues>
+		</Length>
+		<Angle Name="This_Lib_Rotate">
+			<Description><![CDATA[""]]></Description>
+			<Value>0</Value>
+		</Angle>
+		<String Name="Number">
+			<Description><![CDATA["第一个编号"]]></Description>
+			<Value><![CDATA["1"]]></Value>
+		</String>
+		<String Name="Number_String">
+			<Description><![CDATA[""]]></Description>
+			<Value><![CDATA[""]]></Value>
+		</String>
+	</Parameters>
+</ParamSection>

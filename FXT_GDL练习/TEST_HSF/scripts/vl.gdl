@@ -1,0 +1,1 @@
+﻿if x<>0 and y<>0 THEN	parameters TEST_A=x	parameters TEST_B=yENDIFVALUES 	"ssssssss"	Num_Story,custom

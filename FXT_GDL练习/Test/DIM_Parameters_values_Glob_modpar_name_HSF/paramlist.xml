@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParamSection>
+	<ParamSectHeader>
+		<AutoHotspots>false</AutoHotspots>
+		<StatBits>
+			<STBit_FixSize/>
+		</StatBits>
+		<WDLeftFrame>0</WDLeftFrame>
+		<WDRightFrame>0</WDRightFrame>
+		<WDTopFrame>0</WDTopFrame>
+		<WDBotFrame>0</WDBotFrame>
+		<LayFlags>65535</LayFlags>
+		<WDMirrorThickness>0</WDMirrorThickness>
+		<WDWallInset>0</WDWallInset>
+	</ParamSectHeader>
+	<Parameters SectVersion="27" SectionFlags="0" SubIdent="0">
+		<Length Name="A">
+			<Description><![CDATA["第一维"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Length Name="B">
+			<Description><![CDATA["第二维"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Length Name="ZZYZX">
+			<Description><![CDATA["高度"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Boolean Name="AC_show2DHotspotsIn3D">
+			<Description><![CDATA["在3D中显示2D热点"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>1</Value>
+		</Boolean>
+		<Length Name="ac_bottomlevel">
+			<Description><![CDATA["最低级"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>1</Value>
+		</Length>
+		<Length Name="ac_toplevel">
+			<Description><![CDATA["顶级"]]></Description>
+			<Fix/>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Length>
+		<Length Name="FootLength">
+			<Description><![CDATA["FootLength"]]></Description>
+			<Value>0.301</Value>
+		</Length>
+		<Length Name="FootSizeEU">
+			<Description><![CDATA["FootSizeEU"]]></Description>
+			<Value>44</Value>
+		</Length>
+		<Length Name="Arr_dis">
+			<Description><![CDATA["轴网间距"]]></Description>
+			<ArrayValues FirstDimension="4" SecondDimension="0">
+				<AVal Row="1">8.4</AVal>
+				<AVal Row="2">8.4</AVal>
+				<AVal Row="3">8.4</AVal>
+				<AVal Row="4">8.4</AVal>
+			</ArrayValues>
+		</Length>
+		<Length Name="dis">
+			<Description><![CDATA["轴网间距（通用）"]]></Description>
+			<Value>8.4</Value>
+		</Length>
+		<Integer Name="amount">
+			<Description><![CDATA["数量"]]></Description>
+			<Value>4</Value>
+		</Integer>
+		<LineType Name="Axis_Line_type">
+			<Description><![CDATA["轴线线型"]]></Description>
+			<Value>7</Value>
+		</LineType>
+		<Length Name="Axis_lenth">
+			<Description><![CDATA["轴线长度(初始）"]]></Description>
+			<Value>10</Value>
+		</Length>
+		<Length Name="Arr_Axis_lenth">
+			<Description><![CDATA["轴线长度"]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<ArrayValues FirstDimension="5" SecondDimension="0">
+				<AVal Row="1">10</AVal>
+				<AVal Row="2">10</AVal>
+				<AVal Row="3">10</AVal>
+				<AVal Row="4">10</AVal>
+				<AVal Row="5">10</AVal>
+			</ArrayValues>
+		</Length>
+		<Length Name="Axis_lenth_extend">
+			<Description><![CDATA["轴线延申长度"]]></Description>
+			<Value>1</Value>
+		</Length>
+		<Length Name="Axis_and_dim_distance">
+			<Description><![CDATA["标注线长度"]]></Description>
+			<Value>1</Value>
+		</Length>
+	</Parameters>
+</ParamSection>

@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"filewatcher.commands": [		
+			// {
+			// 	"match": "\\.gsm*",
+			// 	"isAsync": true,
+			// 	"cmd": "python \"${workspaceRoot}/vsgdl.py\" libpart2xml \"${file}\"",
+			// 	"event": "onFolderChange"
+			// },
+
+			{
+				"match": "\\.gsm*",
+				"isAsync": true,
+				"cmd": "python \"${workspaceRoot}/vsgdl.py\" libpart2hsf \"${file}\"",
+				"event": "onFolderChange"
+			},
+
+			{
+				"match": "0*_HSF*",
+				"notMatch": "\\.gsm*",
+				"isAsync": true,
+				"cmd": "python \"${workspaceRoot}/vsgdl.py\" hsf2libpart \"${fileDirname}\"",
+				"event": "onFileChange"
+			},
+
+			// {
+			// 	"match": "\\.xml*",
+			// 	"isAsync": true,
+			// 	"cmd": "python \"${workspaceRoot}/vsgdl.py\" xml2libpart \"${file}\"",
+			// 	"event": "onFileChange"
+			// }
+		],
+		"files.autoSave": "off",
+	}
+}

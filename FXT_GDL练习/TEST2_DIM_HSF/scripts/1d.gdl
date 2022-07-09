@@ -1,0 +1,1 @@
+﻿DIM var1[]!DIM var2[]FOR i=1 to 10	var1[i]=i*2NEXT i	VALUES	"var1"	var1,customprint var1

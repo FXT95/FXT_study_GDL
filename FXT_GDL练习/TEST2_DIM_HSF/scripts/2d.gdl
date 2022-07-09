@@ -1,0 +1,1 @@
+﻿FOR i=1 to VARDIM1(var1)		HOTSPOT2 	-1,	0,	Unid=Unid+1,	var1[i],	3+128	HOTSPOT2 	0,	0,	Unid=Unid+1,var1[i],	1+128	HOTSPOT2 	var1[i],	0,	Unid=Unid+1,	Var1[i],	2	add2	var1[i],0	GOSUB "sub1"NEXT iEND  !---------------------------------"sub1":line2 0,0,0,10return

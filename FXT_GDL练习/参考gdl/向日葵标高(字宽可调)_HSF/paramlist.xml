@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParamSection>
+	<ParamSectHeader>
+		<AutoHotspots>false</AutoHotspots>
+		<StatBits>
+			<STBit_FixSize/>
+			<STBit_SizeTo2D/>
+		</StatBits>
+		<WDLeftFrame>0</WDLeftFrame>
+		<WDRightFrame>0</WDRightFrame>
+		<WDTopFrame>0</WDTopFrame>
+		<WDBotFrame>0</WDBotFrame>
+		<LayFlags>65535</LayFlags>
+		<WDMirrorThickness>0</WDMirrorThickness>
+		<WDWallInset>0</WDWallInset>
+	</ParamSectHeader>
+	<Parameters SectVersion="27" SectionFlags="0" SubIdent="0">
+		<Length Name="A">
+			<Description><![CDATA["宽度"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<Length Name="B">
+			<Description><![CDATA["高度"]]></Description>
+			<Fix/>
+			<Value>1</Value>
+		</Length>
+		<String Name="type_bg">
+			<Description><![CDATA["标高形式"]]></Description>
+			<Flags>
+				<ParFlg_BoldName/>
+			</Flags>
+			<Value><![CDATA["常规标高"]]></Value>
+		</String>
+		<Boolean Name="xline">
+			<Description><![CDATA["引线"]]></Description>
+			<Value>0</Value>
+		</Boolean>
+		<RealNum Name="xline_x">
+			<Description><![CDATA["引线x"]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</RealNum>
+		<RealNum Name="xline_y">
+			<Description><![CDATA["引线y"]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</RealNum>
+		<RealNum Name="yline">
+			<Description><![CDATA["竖引线"]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</RealNum>
+		<RealNum Name="mirr">
+			<Description><![CDATA["左右镜像"]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</RealNum>
+		<Length Name="h_txt">
+			<Description><![CDATA["距三角距离"]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Length>
+		<String Name="zt">
+			<Description><![CDATA["字体"]]></Description>
+			<Value><![CDATA["宋体 CHINESE_GB2312"]]></Value>
+		</String>
+		<Length Name="text_h">
+			<Description><![CDATA["字高"]]></Description>
+			<Value>0.003</Value>
+		</Length>
+		<Integer Name="AC_TextAlignment_1">
+			<Description><![CDATA["字体对齐方式"]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>1</Value>
+		</Integer>
+		<RealNum Name="HX_TextCharWidthFactor_1">
+			<Description><![CDATA["宽度因数"]]></Description>
+			<Value>0.7</Value>
+		</RealNum>
+		<RealNum Name="AC_TextCharSpaceFactor_1">
+			<Description><![CDATA["间隔因数"]]></Description>
+			<Value>1</Value>
+		</RealNum>
+		<Length Name="_D">
+			<Description><![CDATA[""]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Length>
+		<Length Name="_E">
+			<Description><![CDATA[""]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Length>
+		<Length Name="_F">
+			<Description><![CDATA[""]]></Description>
+			<Flags>
+				<ParFlg_Hidden/>
+			</Flags>
+			<Value>0</Value>
+		</Length>
+		<PenColor Name="pen_bg">
+			<Description><![CDATA["笔号"]]></Description>
+			<Value>3</Value>
+		</PenColor>
+		<Separator Name="test_sp0">
+			<Description><![CDATA[""]]></Description>
+		</Separator>
+		<String Name="zdybg">
+			<Description><![CDATA["自定义标高（空为自动）"]]></Description>
+			<Flags>
+				<ParFlg_BoldName/>
+			</Flags>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<Boolean Name="kh">
+			<Description><![CDATA["加括号"]]></Description>
+			<Value>0</Value>
+		</Boolean>
+		<Boolean Name="stru">
+			<Description><![CDATA["加结构标高行"]]></Description>
+			<Value>0</Value>
+		</Boolean>
+		<String Name="stru_txt">
+			<Description><![CDATA["结构标高值"]]></Description>
+			<Value><![CDATA["0"]]></Value>
+		</String>
+		<String Name="qz">
+			<Description><![CDATA["前缀"]]></Description>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<String Name="hz">
+			<Description><![CDATA["后缀"]]></Description>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<Separator Name="test_sp1">
+			<Description><![CDATA[""]]></Description>
+		</Separator>
+		<Boolean Name="combg">
+			<Description><![CDATA["多值标高"]]></Description>
+			<Flags>
+				<ParFlg_BoldName/>
+			</Flags>
+			<Value>0</Value>
+		</Boolean>
+		<String Name="first_bg">
+			<Description><![CDATA["起始标高（空为自动）"]]></Description>
+			<Value><![CDATA[""]]></Value>
+		</String>
+		<Length Name="delta">
+			<Description><![CDATA["高差（毫米）"]]></Description>
+			<Value>0</Value>
+		</Length>
+		<Integer Name="num_bg">
+			<Description><![CDATA["个数"]]></Description>
+			<Value>1</Value>
+		</Integer>
+		<Integer Name="com_hz">
+			<Description><![CDATA["后缀（起始楼层，0为空）"]]></Description>
+			<Value>0</Value>
+		</Integer>
+	</Parameters>
+</ParamSection>
